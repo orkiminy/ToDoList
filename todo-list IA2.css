@@ -1,0 +1,246 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#main-container{
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ddd;
+  font-size: 16px;
+}
+
+h1{
+  font-size: 2em;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding-bottom: 25px;
+  padding-top: 5px;
+}
+
+#add-assignment{
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+#buttons{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  padding-top: 15px;
+}
+
+#add{
+  width: 80px;
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  border-radius:5px;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-size: 1em;
+}
+
+#add:hover{
+  background-color: #0056b3;
+}
+
+#assign{
+  margin-top: 10px;
+  width: 80px;
+  height: 40px;
+  background-color: #007bff;
+  color: white;
+  border-radius:5px;
+  border: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-size: 1em;
+}
+
+#assign:hover{
+  background-color: #0056b3;
+
+}
+
+#inputs{
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+
+#line-2{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 4fr 7fr 5fr;
+  width: 100%;
+  height: 25px;
+  margin-top: 10px;
+
+}
+
+#teamateName{
+  height: 35px;
+  border-radius:5px solid;
+  padding-left: 10px;
+  font-size: 16px;
+  font-size: 1em;
+
+}
+
+#names{
+  margin-right: 5px;
+  border-radius:5px;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  font-size: 16px;
+  font-size: 1em;
+
+}
+
+#task{
+  margin-right: 5px;
+  height: 35px;
+  border-radius: 5px solid;
+  padding-left: 10px;
+  font-size: 16px;
+  font-size: 1em;
+}
+
+#date{
+  color: lightgray;
+  height: 35px;
+  border-radius: 5px solid;
+  padding-left: 10px;
+  font-size: 16px;
+  font-size: 1em;
+}
+
+
+.name{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: none;
+
+}
+
+.one-task{
+  background-color: #f4f4f4;
+  margin-bottom: 5px;
+  justify-content: center;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 3fr 130px 15px;
+  padding: 10px;
+  border-radius:5px;
+  font-size: 16px;
+}
+
+.checkbox-box{
+  transform: scale(1.75);
+  border-color: #f4f4f4;
+  background-color: white;
+  border: 2px solid #ccc;
+}
+#all-tasks{
+  border-top: 2px solid #f4f4f4;
+  border-bottom: 2px solid #f4f4f4;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  min-height: 70px;
+
+}
+
+#bottom-buttons{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+
+#clear{
+  margin-right: 10px;
+  background-color: #64d05e;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.81em;
+  padding: 5px;
+  transition: background-color 0.3s;
+
+}
+
+#clear:hover{
+  background-color: #4ea649;
+}
+
+
+#reset{
+  background-color: #c3c3c3;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.81em;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+#reset:hover{
+  background-color: #8f8f8f;
+
+}
+
+input{
+  border: 2px solid #f4f4f4;
+  border-radius: 5px
+
+}
+
+select{
+  border: 2px solid #f4f4f4;
+  padding-left: 5px;
+  background-image: url('file:///Users/wryny/Desktop/sort-solid-full.svg');
+  background-repeat: no-repeat;
+  -moz-appearance: none;    
+  background-position: right 5px center;
+}
+
+#empty-task{
+  margin-top: 35px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: lightgray;
+}
+
+#cleared-empty-task{
+  margin-top: 35px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: lightgray;
+}
